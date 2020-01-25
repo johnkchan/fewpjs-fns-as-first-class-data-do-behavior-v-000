@@ -23,5 +23,5 @@ function greet(time) {
 
 function displayMessage(message) {
   let element = document.querySelector("#greeting")
-  element.innerHTML = message
+  element.innerText = message
 }
